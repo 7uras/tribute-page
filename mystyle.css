@@ -1,0 +1,150 @@
+body {
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+#header {
+  background: url("https://www.bloomberg.com/graphics/2015-elon-musk-spacex/img/musk_final.jpg")fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  margin-top: 0px;
+  }
+  
+ #title {
+    background-image: linear-gradient(#FFFFFF 25%, #CFC591 50%, #F5C205 75%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 85px;
+    text-align: center;
+    margin-top: 0px;
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+   font-family: "Courier New";
+            
+}
+
+#image {
+  width: 15%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 8px ridge silver;
+  border-radius: 50%; 
+}
+
+#img-caption {
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+  text-align: center;
+  font-family: "Verdana";
+  font-weight: bold;
+  background-image: linear-gradient(to right, #0026A9, #E7E7E7);
+    background-size: 100%;
+    border-radius: 25px;
+}
+
+/*main*/
+
+#tribute.info {
+  top: 150vh;
+  display: flex;
+  align-items: center;
+  
+}
+
+#headline {
+  font-size: 25px;
+  align-items: left;
+}
+
+li {
+  margin: 5px;
+  padding: 0;
+  text-align: left;
+  font-family: Montserrat;
+  list-style-type: circle;
+  line-height: 1.5;
+  font-size: 22px;
+  text-align: center;
+  
+  }
+
+
+.backgroundsrodek {
+  display: inline-block;
+  margin-left: 5%;
+  background-color: #c9c7c7;
+  width: 75%;
+  height: 475px;
+  border-radius: 15px;
+  }
+
+.container {
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 25px;;
+  margin-bottom: 25px;
+  
+}
+
+}  
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+  background-color: #e3e3e3;
+  border-radius: 10%;
+  }
+
+.right {
+  width: 75%;
+ }
+
+#center {
+  line-height: 1.5;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#elonred:hover {
+  color: #d97b00;
+}
+
+/*footer*/
+
+.container-footer {
+  width: 75%;
+  height: 55px;
+  background-color: #e3e3e3;
+  display: inline-block;
+  border-radius: 15px;
+  margin-left: 5%;
+}
+
+#tribute-link {
+  font-size: 15px;
+}
